@@ -11,6 +11,7 @@ class App extends React.Component {
   state = {
     // default state, we use empty array to avoid undefined errors
     celebrities: [],
+    user: {}
   };
   // componentDidMount is called once when a component is initially rendered(note re-renders from state or prop changes won't re-trigger this)
   async componentDidMount() {
